@@ -12,6 +12,6 @@ function OnGUI()
 {
 	GUI.skin = style;
 	
-	GUI.Label (Rect(400,8,100,30),"Score: "+ score);
-	GUI.Label (Rect(400,35,100,30),"Lives: "+ lives);
+	GUI.Label (Rect(15,8,100,30),"Score: "+ score);
+	GUI.Label (Rect(15,35,100,30),"Lives: "+ lives);
 }
