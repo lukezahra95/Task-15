@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: af10fcdcd09fe1d4ab3262a3d4a2845d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - ballPrefab: {fileID: 100000, guid: e0499907251bcb345ade90dcc5200bae, type: 2}
+  - attachedBall: {fileID: 100000, guid: e0499907251bcb345ade90dcc5200bae, type: 2}
+  - ballRigidbody: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
