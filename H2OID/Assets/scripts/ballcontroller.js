@@ -26,6 +26,10 @@ function Update () {
 		pcontroller.attachedBall = this.gameObject;		
 		
 		powerUpCounter = 0;
+		if (gamecontroller.lives == 0 )		
+			{
+				Application.LoadLevel("gameover");
+			}
 	}
 	
 	if ((GameObject.FindGameObjectsWithTag("special").Length < 1) && (GameObject.FindGameObjectsWithTag("normal").Length < 1))
