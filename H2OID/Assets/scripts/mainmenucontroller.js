@@ -23,6 +23,10 @@ function OnMouseUp(){
 		//quit the game
 		Application.Quit();
 	}
+	else if (howtoplay == true)
+	{
+		Application.LoadLevel("howtoplay");
+	}
 	else if (back == true)
 	{
 		Application.LoadLevel("menu");
