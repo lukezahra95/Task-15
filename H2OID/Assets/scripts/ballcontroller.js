@@ -84,6 +84,11 @@ function OnCollisionEnter(col:Collision)
 		gamecontroller.score = gamecontroller.score+100;
 		powerUpCounter = 0;
 	}
+	
+	if (col.gameObject.tag == "wall")
+	{
+		audio.PlayOneShot(wallsound,0.5);
+	}
 }
 
 function generatePower()
